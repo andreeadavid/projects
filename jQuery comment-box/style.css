@@ -1,0 +1,101 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+
+body{
+  background:#EEE;
+}
+
+.comment-box {
+    margin: 10px auto;
+    display: block;
+    text-align: center;
+    width: 620px;
+    height: 360px;
+    padding: 15px;
+    background: #DDD;
+    border: 1px solid #CCC;
+}
+
+.comment{
+    padding: 20px 30px 20px 50px;
+    width: 600px;
+    margin: 20px auto;
+    background: #FFF;
+    border: 1px solid #CCC;
+}
+
+.comment-box__add-btn {
+    margin-top: 20px;
+    height: 32px;
+    background: #EEE;
+    border: 1px solid #CCC;
+    cursor: pointer;
+    width: 160px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.comment__delete-btn{
+    text-decoration: none;
+    color: #FF0000;
+    float: right;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.delete-btn{
+    float: right;
+}
+  
+.email{
+    color: #747474;
+}
+
+input{
+    width: 300px;
+    height: 30px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    padding-left: 5px;
+    resize: none;
+    float: left;
+    margin-left: 50px;
+    margin-bottom: 5px
+}
+
+
+label{
+    font-weight: bold;
+    display: inline-block;
+    width: 120px;
+    float: left;
+}
+
+textarea {
+    height: 200px;
+    padding-top: 10px;
+    width: 300px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    padding-left: 5px;
+    resize: none;
+    float: left;
+    margin-left: 50px;
+    margin-bottom: 5px;
+}
+
+.text{
+  margin: 20px 0px;
+}
+

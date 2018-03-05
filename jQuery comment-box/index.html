@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Comment Box</title>
+</head>
+<body>
+    <div class="comment-box">
+        <form action="#" class="clearfix" class="commentForm">
+           <label for="comment">Comment</label><textarea name="comment" class="comment-box__field"id ="textarea" placeholder="Comment"></textarea>
+          <br/>
+          <label for="email">Email</label><input class="email-field" id="email" type="email" placeholder="Your email">
+          <br/>
+          <label for="image">Image</label><input class="image-field" id="image" type="text" placeholder="Image URL">
+           <button id="addtag" class="comment-box__add-btn">Add Comment</button></>
+         </form>
+        </div>
+        
+        <div class="comment">
+        <h4>Comment demo</h4>
+        <img src="http://lorempixel.com/50/50/" alt="imagine">
+        <a class="delete-btn" href="#">X</a>
+        <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et lorem vel justo gravida tempor quis aliquet nibh. Aenean lobortis, quam vel tincidunt posuere, felis sem luctus magna, et sagittis tortor risus vitae diam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi ullamcorper mauris eget volutpat aliquet.</p>
+        <span>deea@deea.com</span>
+        
+        </div>
+        <div class="comments"></div>
+        
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+     <script src="script.js"></script> 
+</body>
+</html>
